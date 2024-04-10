@@ -24,4 +24,4 @@ jobs:
           python -m seleniumwire extractcert
           sudo cp ca.crt /usr/local/share/ca-certificates
           sudo update-ca-certificates
-          python main.py -v -f cookies.json https://www.apkmirror.com
+          python main.py -v -f cookies.json https://nopecha.com/demo
